@@ -1,0 +1,39 @@
+<app-header titulo="DateTime"></app-header>
+
+<ion-content >
+
+<ion-list>
+
+  <ion-list-header>
+
+    <ion-label>Datos de Nacimiento</ion-label>
+
+  </ion-list-header>
+
+
+  <ion-item>
+
+<ion-label>Fecha de Nacimiento</ion-label>
+
+    <ion-datetime [value]="fechaNaci.toISOString()"
+                  display-format="YYYY MMMM DD"
+
+                  ></ion-datetime>
+
+  </ion-item>
+
+  <ion-item>
+    <label>MIN MAX</label>
+    <ion-datetime value="2022-04-21T00:00:00"
+                  min="2022-03-01T00:00:00" max="2022-05-31T23:59:59"></ion-datetime>
+  </ion-item>
+</ion-list>
+
+
+</ion-content>
+
+
+
+
+
+
