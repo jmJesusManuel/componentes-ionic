@@ -32,7 +32,7 @@
     {
       "icon": "calendar-outline",
       "name": "Date",
-      "redirectTo": "/date"
+      "redirectTo": "/date-time"
     },
     {
       "icon": "car-outline",
@@ -93,6 +93,26 @@
       "icon": "search-outline",
       "name": "Search",
       "redirectTo": "/search"
+    },
+    {
+      "icon": "Copy-outline",
+      "name": "Segment",
+      "redirectTo": "/segment"
+    },
+    {
+      "icon": "albums-outline",
+      "name": "Slides",
+      "redirectTo": "/slides"
+    },
+    {
+      "icon": "cog-outline",
+      "name": "Tabs",
+      "redirectTo": "/tabs"
+    },
+    {
+      "icon": "pricetag-outline",
+      "name": "Toast",
+      "redirectTo": "/toast"
     }
 
    ]

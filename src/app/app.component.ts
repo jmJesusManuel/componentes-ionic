@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Componente } from './interfaces/interfaces';
 import { DataService } from './services/data.service';
+import { register } from 'swiper/element/bundle';
+
+register();
 
 @Component({
   selector: 'app-root',
@@ -21,5 +24,7 @@ export class AppComponent implements OnInit {
   constructor(private dataService:DataService) {
 
   }
+
+  
 
 }

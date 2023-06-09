@@ -1,5 +1,5 @@
 <ion-app>
-
+<ion-split-pane when="md" contentId="main">
   <ion-menu side="start" menuId="first" contentId="main">
   <ion-header>
     <ion-toolbar color="danger">
@@ -9,7 +9,8 @@
   <ion-content >
     <ion-list>
 
-      <ion-menu-toggle *ngFor="let c of componentes | async ">
+      <ion-menu-toggle *ngFor="let c of componentes | async "
+                        autoHide="false">
   <ion-list>
     <ion-item
               [routerLink]="c.redirectTo"
@@ -32,4 +33,6 @@
 
 
   <ion-router-outlet id="main"></ion-router-outlet>
+</ion-split-pane>
+
 </ion-app>
